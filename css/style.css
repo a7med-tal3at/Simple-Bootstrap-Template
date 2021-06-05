@@ -1,0 +1,82 @@
+/**
+ * General Styling
+ * */
+
+body {
+  font-family: Montserrat, sans-serif;
+  --main-color: #1abc9c;
+}
+/**
+ * Navbar
+ * */
+
+.navbar {
+  text-transform: capitalize;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: var(--main-color);
+}
+
+/**
+ * Who
+ * */
+
+.who {
+  background-color: var(--main-color);
+}
+
+.who-content .ask {
+  font-weight: normal;
+  font-size: 20px;
+}
+.who-content img {
+  width: 350px;
+  height: 350px;
+}
+
+/**
+ * What
+ * */
+
+.what {
+  background-color: #474e5d;
+}
+
+.what-content .ans {
+  line-height: 30px;
+}
+/**
+ * Where
+ * */
+
+.where-content .ask {
+  font-size: 23px;
+}
+
+/*** Where Media Query */
+
+@media screen and (max-width: 600px) {
+  .where-content .c-wraper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .where-content .c-wraper .card {
+    margin-bottom: 20px;
+    width: 100% !important;
+  }
+}
+
+/**
+ * Footer
+ * */
+
+footer {
+  background-color: #2f2f2f;
+}
