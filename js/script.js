@@ -1,5 +1,3 @@
-$(document).ready(function () {
-  $("button").click(function () {
-    $(".alert").fadeToggle();
-  });
-});
+/**
+ * JavaScript File
+ * */
